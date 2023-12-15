@@ -1,0 +1,47 @@
+{
+  "name": "Noted: A Note Taking App",
+  "version": "1.0.0",
+  "description": "Noted: A note Taking App Written in React Native",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "node-start": "node App.js",
+      "dev": "nodemon App.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfJordan/noted-note-taking-app.git"
+  },
+  "keywords": [
+    "Note",
+    "Taking",
+    "To",
+    "Do",
+    "List",
+    "Noted",
+    "App"
+  ],
+  "author": "Jordan Halliday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProfJordan/noted-note-taking-app/issues"
+  },
+  "homepage": "https://github.com/ProfJordan/noted-note-taking-app#readme",
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "expo": "~48.0.21",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.14",
+    "react-native-paper": "4.9.2",
+    "@expo/vector-icons": "^13.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
+
